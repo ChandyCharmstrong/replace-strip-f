@@ -1,0 +1,20 @@
+# replace 
+
+sentense = "The!quick!brown!fox!jumps!over!the!lazy!dog!."
+new_sentense = sentense.replace('!', " ") 
+
+print(new_sentense)
+print(new_sentense.upper())
+print(new_sentense[::-1])
+
+# strip 
+
+hero = "$$$Superman$$$"
+print(hero.strip('$'))
+
+# format 
+
+name = "Hannah" 
+age = 23
+sentence = f"My name is {name} and I am {age} years old"
+print(sentence)
